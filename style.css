@@ -17,3 +17,52 @@ body{
 /* .fa-solid.fa-quote-right{
     background-color: red;
 } */
+
+@media (max-width: 768px) {
+    #main-container {
+        padding: 10px;
+    }
+
+    .customer-card {
+        padding: 15px;
+        box-shadow: none;
+        clip-path: circle(100%);
+    }
+
+    .quote {
+        font-size: 30px;
+        width: 15%;
+        left: 40%;
+        top: 40px;
+    }
+
+    .profile-img {
+        height: 120px;
+        width: 120px;
+        box-shadow: none;
+        margin-bottom: 10px;
+    }
+
+    .customer-name {
+        font-size: 18px;
+    }
+
+    .customer-designation {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .customer-bio {
+        font-size: 14px;
+    }
+
+    #button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-button {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
