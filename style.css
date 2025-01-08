@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+}
+#main-container{
+    width: 39%;
+    text-align: center;
+}
+
+/* .fa-solid.fa-quote-right{
+    background-color: red;
+} */
