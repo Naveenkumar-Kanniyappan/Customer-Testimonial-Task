@@ -18,7 +18,7 @@ body{
     background-color: red;
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 345px) {
     #main-container {
         padding: 10px;
     }
